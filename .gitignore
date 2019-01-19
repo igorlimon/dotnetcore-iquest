@@ -1,0 +1,20 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vscode
+/Module 2/Configuration/.vs/Configuration
+/Module 2/Configuration/obj
+/Module 2/Configuration/bin/Debug/netcoreapp2.1
+/Module 2/DI/obj
+/Module 2/DI/bin/Debug/netcoreapp2.1
+/Module 2/Server/obj
+/Module 2/Server/bin/Debug/netcoreapp2.1
+/Module 2/Server/.vs/Server/v15/Server/sqlite3
+/Module 2/Middleware/obj
+/Module 2/Middleware/bin/Debug/netcoreapp2.1
+/Module 2/Host/obj
+/Module 2/Host/bin/Debug/netcoreapp2.1
+/Module 2/GenericHostSample/obj
+/Module 2/GenericHostSample/bin/Debug/netcoreapp2.1
+/Module 2/GenericHostSample/.vs/GenericHostSample/v15/Server/sqlite3
