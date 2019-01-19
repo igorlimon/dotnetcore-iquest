@@ -18,3 +18,9 @@
 /Module 2/GenericHostSample/obj
 /Module 2/GenericHostSample/bin/Debug/netcoreapp2.1
 /Module 2/GenericHostSample/.vs/GenericHostSample/v15/Server/sqlite3
+/host
+/Module 2/Host/WebHost/obj
+/Module 2/Host/WebHost/bin/Debug/netcoreapp2.2
+/Module 2/Host/WebHost/.vs/WebHost/v15/Server/sqlite3
+/Module 2/Host/GenericHost/obj
+/Module 2/Host/GenericHost/bin/Debug/netcoreapp2.2

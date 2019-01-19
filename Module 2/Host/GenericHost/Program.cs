@@ -1,18 +1,21 @@
-using System.IO;
-using System.Threading.Tasks;
-using Microsoft.Extensions.Configuration;
+﻿using System.Threading.Tasks;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 
-namespace GenericHostSample
+namespace GenericHost
 {
     public class Program
     {
-        public static async Task Main(string[] args)
+        public static void Main(string[] args)
+        {
+            Run();
+        }
+
+        private static async Task Run()
         {
             var host = new HostBuilder()
-                .ConfigureServices((hostContext, services) =>
+              .ConfigureServices((hostContext, services) =>
                 {
                     services.AddHostedService<LifetimeEventsHostedService>();
                     services.AddHostedService<TimedHostedService>();
@@ -25,7 +28,7 @@ namespace GenericHostSample
                 .UseConsoleLifetime()
                 .Build();
 
-            await host.RunAsync();
+            await host.StartAsync();
         }
     }
 }

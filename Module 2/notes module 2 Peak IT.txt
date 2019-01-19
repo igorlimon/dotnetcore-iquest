@@ -22,8 +22,19 @@ https://github.com/dodyg/practical-aspnetcore/blob/master/projects/middleware-8/
 
 mkdir Host
 cd Host
+mkdir GenericHostApp
+cd GenericHostApp
 dotnet new console
 dotnet add package Microsoft.AspNetCore
+dotnet add package Microsoft.Extensions.Hosting
+mkdir WebHostApp
+cd WebHostApp
+dotnet new console
+dotnet add package Microsoft.AspNetCore
+dotnet add package Microsoft.Extensions.Hosting
+# more elaborate example of using hosts https://docs.microsoft.com/en-us/dotnet/standard/microservices-architecture/multi-container-microservice-net-applications/background-tasks-with-ihostedservice
+mkdir WebHost
+
 
 mkdir Server
 cd Server
