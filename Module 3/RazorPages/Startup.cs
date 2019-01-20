@@ -1,6 +1,8 @@
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
+using RazorPages.Data;
 
 namespace RazorPages
 {
@@ -8,6 +10,8 @@ namespace RazorPages
     {
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddDbContext<AppDbContext>(options =>
+                options.UseInMemoryDatabase("name"));
             services.AddMvc();
         }
 
