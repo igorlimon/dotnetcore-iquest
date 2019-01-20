@@ -40,3 +40,6 @@
 /Module 3/MvcApp/bin/Debug/netcoreapp2.2
 /Module 3/MvcApp/obj
 /Module 3/RazorPages/bin/Debug/netcoreapp2.2
+/Module 3/TagHelpers/obj
+/Module 3/TagHelpers/bin/Debug/netcoreapp2.2
+/Module 3/TagHelpers/bin/Debug/netcoreapp2.1
