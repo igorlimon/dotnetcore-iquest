@@ -1,10 +1,10 @@
 namespace DI
 {
-    public class PeakItService : IPeakItService
+    public class IQuestService : IIQuestService
     {
         private string connectionString;
         
-        public PeakItService(string connString)
+        public IQuestService(string connString)
         {
             this.connectionString = connString;
         }

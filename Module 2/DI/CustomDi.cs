@@ -1,5 +1,3 @@
-using System;
-using Microsoft.AspNetCore.Builder;
 using Microsoft.Extensions.DependencyInjection;
 
 namespace DI
@@ -10,14 +8,14 @@ namespace DI
 
         internal void PopulateService()
         {
-            _services.AddTransient<IPeakItService>(s => new PeakItService("MyConnectionString"));
+            _services.AddTransient<IIQuestService>(s => new IQuestService("MyConnectionString"));
         }
 
-        internal IPeakItService GetPeakItService()
+        internal IIQuestService GetIQuestService()
         {
             var provider = _services.BuildServiceProvider();
 
-            return provider.GetService<IPeakItService>();
+            return provider.GetService<IIQuestService>();
         }
     }
 }

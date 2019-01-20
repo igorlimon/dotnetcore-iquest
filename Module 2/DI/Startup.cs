@@ -11,7 +11,7 @@ namespace DI
 
         public void ConfigureServices1(IServiceCollection services)
         {
-            services.AddTransient<IPeakItService>(s => new PeakItService("MyConnectionString"));
+            services.AddTransient<IIQuestService>(s => new IQuestService("MyConnectionString"));
         }
     }
 }

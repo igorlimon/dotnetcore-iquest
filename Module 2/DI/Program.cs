@@ -18,8 +18,8 @@ namespace DI
             var customDi = new CustomDi();
             customDi.PopulateService();
 
-            var peakItService = customDi.GetPeakItService();
-            System.Console.WriteLine(peakItService.GetConstructorParameter());
+            var peakItService = customDi.GetIQuestService();
+            Console.WriteLine(peakItService.GetConstructorParameter());
         }
 
         public static IWebHostBuilder CreateWebHostBuilder(string[] args) =>

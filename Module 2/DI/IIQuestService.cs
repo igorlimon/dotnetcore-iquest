@@ -1,6 +1,6 @@
 namespace DI
 {
-    public interface IPeakItService
+    public interface IIQuestService
     {
         string GetConstructorParameter();
     }
