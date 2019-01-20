@@ -3,7 +3,7 @@ function dnb { Write-Host "dotnet build" | dotnet build }
 function dnr { Write-Host "dotnet run" | dotnet run }
 
 dotnet new console --name AppMiddleware
-cd .\PeakItMiddleware\
+cd .\AppMiddleware\
 dotnet add package Microsoft.AspNetCore
 dotnet run
 #app.Use may call next middleware component in the pipeline. 

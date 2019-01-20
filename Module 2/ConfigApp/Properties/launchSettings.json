@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "ConfigApp": {
+      "commandName": "Project",
+      "commandLineArgs": "city=\"Brasov\""
+    }
+  }
+}
