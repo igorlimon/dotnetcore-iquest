@@ -37,5 +37,10 @@ namespace RazorPages.Pages
 
             return RedirectToPage();
         }
+
+        public void OnHead()
+        {
+            HttpContext.Response.Headers.Add("Custom", "REWQ");
+        }
     }
 }
