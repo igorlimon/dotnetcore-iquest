@@ -31,3 +31,9 @@
 /Module 2/Logging/LoggingApp/obj
 /Module 2/Logging/LoggingApp/bin/Debug/netcoreapp2.2
 ~$Asp-net-core PeakIT.pptx
+/Module 2/ErrorHandling/obj
+/Module 2/ErrorHandling/bin/Debug/netcoreapp2.2/ErrorHandling.runtimeconfig.json
+/Module 2/ErrorHandling/bin/Debug/netcoreapp2.2/ErrorHandling.runtimeconfig.dev.json
+/Module 2/ErrorHandling/bin/Debug/netcoreapp2.2/ErrorHandling.deps.json
+/Module 2/ErrorHandling/bin/Debug/netcoreapp2.2
+/Module 3/RazorPages/obj
