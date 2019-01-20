@@ -1,6 +1,6 @@
 ﻿@page
+@using global::TagHelpers.Models
 @model ContactModel
-@addTagHelper *, TagHelpers
 @{
     ViewData["Title"] = "Contact";
 }
@@ -20,3 +20,12 @@
     <strong>Marketing:</strong>
     <company-email>Marketing</company-email>
 </address>
+<h1 strike>something</h1>
+
+<CompanyAddress address=' new Address
+    {
+        Street = "One Microsoft Way",
+        City = "Redmond",
+        PostalCode = "WA 98052-6399",
+        Phone = "425.555.0100"
+    }'/>
