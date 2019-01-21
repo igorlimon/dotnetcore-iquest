@@ -26,3 +26,7 @@ dotnet ef migrations add InitialCreate
 dotnet ef database update
 
 dotnet aspnet-codegenerator razorpage -m Event -dc EventContext -udl -outDir Pages\EventRazorPage --referenceScriptLibraries
+
+mkdir TagHelpers
+cd TagHelpers
+dotnet new web
